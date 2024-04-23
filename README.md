@@ -22,9 +22,9 @@ Then look for the file :
 - accountsdb.sql file is a mysql dump file.we have to import this dump to mysql db server
 - > mysql -u <user_name> -p accounts < accountsdb.sql
   >
-  > Docker install
-  > docker run -d -p 8081:8081 --name nexus sonatype/nexus3
-  > docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
-  > 
+Docker install
+docker run -d -p 8081:8081 --name nexus sonatype/nexus3
+docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
+  
 
 
