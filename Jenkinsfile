@@ -9,9 +9,9 @@ pipeline {
     environment {
         NEXUS_VERSION = "nexus3"
         NEXUS_PROTOCOL = "http"
-        NEXUS_URL = "172.31.21.203:8081"
+        NEXUS_URL = "184.73.22.157:8081"
         NEXUS_REPOSITORY = "ReleaseRepo"
-	    NEXUS_REPOGRP_ID    = "cicd-project"
+	    NEXUS_REPOGRP_ID    = "kube-release"
         NEXUS_CREDENTIAL_ID = "Nexus"
         NEXUSPORT = "8081"
         ARTVERSION = "${env.BUILD_ID}"
